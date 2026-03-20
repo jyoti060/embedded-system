@@ -1,2 +1,3 @@
 # embedded-system
-projects related to microcontroller programming based on MSPM0L1306
+deep dive into the world of embedded and develop a understanding for various peripherals and just how the whole embedded system works altogether.
+
