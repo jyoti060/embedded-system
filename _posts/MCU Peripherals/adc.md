@@ -17,7 +17,7 @@ First of all let's start with what is meant by digital and analog signal. Analog
 So it is easy to process and handle digital signal than analog signal,  but the problem is that most of the real life signals are analog in nature and the device which process these signals operates on digital signal. Here the ADC and DAC comes in picture.
 
 <p align="center">
-<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_1.png" alt="Signal Processing" width="200"/>
+<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_1.png" alt="Signal Processing" width="700" height = "500"/>
 </p>
 
 ADC  stands for Analog to Digital Converter, it is a hardware module which takes an analog signal as input and converts it into digital values. The block diagram of ADC is as follows 
@@ -29,7 +29,7 @@ ADC  stands for Analog to Digital Converter, it is a hardware module which takes
 The first block of an ADC is sample and Hold circuit. The sample and hold circuit is an electronic circuit consisting of a MOSFET switch, Capacitor and operational amplifier, and is used to sample and the input signal and hold or freeze it for some time which is mainly helpful in data procurement. To understand it briefly, the MOSFET samples the input signal entering from drain terminal and in ON state charges the capacitor, which holds the voltage state when switch turns off, the Op-Amp mainly functions as gain amplifier and capacitor faces a high impedance because of that and do not discharge and hold up the charge for some time and this time is called holding time. 
 
 <p align="center">
-<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_3.png" alt="Circuit Diagram for Sample Hold Ckt" width="700" height="500"/>
+<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_3.png" alt="Circuit Diagram for Sample Hold Ckt" width="600" height="500"/>
    
    [credit: GFG](https://media.geeksforgeeks.org/wp-content/uploads/20240206124751/ww.webp) 
 </p>
@@ -46,7 +46,7 @@ To determine the performance of sample and hold circuit different parameter are 
 
 
 <p align="center">
-<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_4.png" alt="Simplified Sample Hold Circuit" width="700" height="500"/>
+<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_4.png" alt="Simplified Sample Hold Circuit" width="400" height="300"/>
 </p>
 
 The next part is Quantization; Before deep diving in quantization, you should have a understanding of ADC resolution and what does n-bit ADC specifies. The resolution describes number of discrete analog values for the given voltage range. For a n-bit ADC resolution will be 2^n.
