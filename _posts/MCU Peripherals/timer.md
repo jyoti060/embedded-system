@@ -1,5 +1,3 @@
-TIMER
-
 **TIMER**
 
 A timer is a hardware peripheral which counts the clock pulses to
@@ -54,23 +52,21 @@ MCU specific but in general we can define them as mentioned:
 > it starts from INT and goes up to RELOAD value or vice versa depending
 > on timer mode.
 
-Different Timer Mode: 1. Up Counting
-
+Different Timer Mode: 
+>1. Up Counting
 > In this mode the timer starts counting from INT value and goes up to
-> RELOAD/MAX value. 2. Down Counting
->
+> RELOAD/MAX value.
+>2. Down Counting
 > In this mode the timer starts counting from RELOAD value and goes up
 > to INT value and then resets back.
->
-> 3\. Centre aligned (Up Down Counting/ Down Up Counting)
->
+>3. Centre aligned (Up Down Counting/ Down Up Counting)
 > In this mode if it is Up Down Counter then it starts from INT Value
 > and increments up to RELOAD value and then decrements again till INT
 > value. Down Up Counter then it starts from RELOAD Value and decrements
 > up to INT value and then increments again till RELOAD value.
 
 
-<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_1.png"
+<img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_timer_1.png"
 style="width:3.15097in;height:6.00903in" />Image Credit to
 [<u>TexasInstrumentTRM_MSPM0</u>](https://www.ti.com/lit/pdf/slau846)
 
@@ -80,9 +76,7 @@ values (in down counting timer) then underflow flag is set.
 
 Use cases of Timers:
 
-> 1\. Generating PWM
->
-> This outputs a digital signal on MCU pins. 2. Time delays
->
-> 3\. Capturing Input waveform
+1\. Generating PWM:  This outputs a digital signal on MCU pins.
+2\. Time delays
+3\. Capturing Input waveform
 
