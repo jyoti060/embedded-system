@@ -65,7 +65,7 @@ Quantization step Size is defined as Δ = Vfs/((2^n)-1); where Vfs is full scale
 
 Quantization error = 1/2(LSB) or 1/2(step\_size)
 
-Higher the bits , lower the resolution, lower the quantization error, but increasing bits also increases the memory size , so it is trade-off between accuracy and memory.
+Higher the bits , higher the resolution, lower the quantization error, but increasing bits also increases the memory size , so it is trade-off between accuracy and memory.
 
 <p align="center">
 <img src="https://github.com/jyoti060/embedded-system/blob/main/_posts/img/img_adc_5.png" alt="Quantization" width="600" height="400"/>
